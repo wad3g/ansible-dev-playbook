@@ -1,0 +1,81 @@
+homebrew_installed_packages:
+  - autoconf
+  - awscli
+  - bash-completion
+  - cocoapods
+  - curl
+  - dart
+  - gifsicle
+  - git
+  - github/gh/gh
+  - go
+  - gpg
+  - httpie
+  - imagemagick
+  - iperf
+  - jq
+  - libevent
+  - mackup
+  - nvm
+  - openssl
+  - powerlevel10k
+  - rbenv
+  - ruby-build
+  - sqlite
+  - ssh-copy-id
+  - thefuck
+  - wget
+  - wifi-password
+  - zsh
+  - zsh-history-substring-search
+
+homebrew_cask_apps:
+  - 1password
+  - alfred
+  - appcleaner
+  - bettertouchtool
+  - chromedriver
+  - daisydisk
+  - dropbox
+  - finicky
+  - gitkraken
+  - google-chrome
+  - hyper
+  - lunar
+  - mackup
+  - microsoft-teams
+  - moom
+  - keybase
+  - paw
+  - raycast
+  - sip
+  - slack
+  - stats
+  - tableplus
+  - the-unarchiver
+  - transmit
+  - unclack
+  - visual-studio-code
+
+gem_packages:
+  - name: bundler
+    state: latest
+  - name: cocoapods
+    state: latest
+  - name: cocoapods-core
+    state: latest
+  - name: cocoapods-downloader
+    state: latest
+
+npm_packages:
+  - name: http-server
+  - name: npm
+  - name: prettier
+  - name: typescript
+  - name: webpack
+  - name: yarn
+
+pip_packages:
+  - name: mkdocs
+
+configure_dock: false
