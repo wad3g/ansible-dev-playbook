@@ -1,13 +1,8 @@
 homebrew_installed_packages:
   - autoconf
-  - awscli
-  - bash-completion
-  - cocoapods
+  - ca-certificates
   - curl
-  - dart
-  - gifsicle
   - git
-  - github/gh/gh
   - go
   - gpg
   - httpie
@@ -16,56 +11,41 @@ homebrew_installed_packages:
   - jq
   - libevent
   - mackup
+  - node
   - nvm
   - openssl
-  - powerlevel10k
-  - rbenv
-  - ruby-build
-  - sqlite
+  - python
   - ssh-copy-id
   - thefuck
+  - tmux
   - wget
   - wifi-password
+  - yamllint
   - zsh
   - zsh-history-substring-search
+  - zstd
 
 homebrew_cask_apps:
   - 1password
-  - alfred
   - appcleaner
-  - bettertouchtool
-  - chromedriver
-  - daisydisk
   - dropbox
-  - finicky
+  - font-fira-code
   - gitkraken
-  - google-chrome
+  - google-chrome-canary
   - hyper
   - lunar
-  - mackup
   - microsoft-teams
   - moom
-  - keybase
-  - paw
+  - onyx
+  - postman
   - raycast
   - sip
   - slack
   - stats
-  - tableplus
   - the-unarchiver
-  - transmit
   - unclack
-  - visual-studio-code
-
-gem_packages:
-  - name: bundler
-    state: latest
-  - name: cocoapods
-    state: latest
-  - name: cocoapods-core
-    state: latest
-  - name: cocoapods-downloader
-    state: latest
+  - visual-studio-code-insiders
+  - warp
 
 npm_packages:
   - name: http-server
@@ -75,7 +55,33 @@ npm_packages:
   - name: webpack
   - name: yarn
 
-pip_packages:
-  - name: mkdocs
-
-configure_dock: false
+configure_dock: true
+dockitems_remove:
+  - Contacts
+  - Calendar
+  - Notes
+  - Reminders
+  - Maps
+  - Photos
+  - Pages
+  - Numbers
+  - Keynote
+  - Books
+dockitems_persist:
+  - name: "Microsoft Outlook"
+    path: "/Applications/Microsoft Outlook.app/"
+    pos: 2
+  - name: "Microsoft Teams"
+    path: "/Applications/Microsoft Teams.app/"
+    pos: 3
+  - name: "Google Chrome Canary"
+    path: "/Applications/Google Chrome Canary.app/"
+    pos: 4
+  - name: "Warp"
+    path: "/Applications/Warp.app/"
+  - name: "Visual Studio Code - Insiders"
+    path: "/Applications/Visual Studio Code - Insiders.app"
+  - name: "GitKraken"
+    path: "/Applications/GitKraken.app"
+  - name: "Postman"
+    path: "/Applications/Postman.app"
