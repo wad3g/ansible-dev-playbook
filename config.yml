@@ -6,7 +6,6 @@ homebrew_installed_packages:
   - go
   - gpg
   - httpie
-  - imagemagick
   - iperf
   - jq
   - libevent
@@ -20,7 +19,6 @@ homebrew_installed_packages:
   - tmux
   - wget
   - wifi-password
-  - yamllint
   - zsh
   - zsh-history-substring-search
   - zstd
@@ -29,9 +27,7 @@ homebrew_cask_apps:
   - 1password
   - appcleaner
   - dropbox
-  - font-fira-code
   - gitkraken
-  - google-chrome-canary
   - hyper
   - lunar
   - microsoft-teams
@@ -39,12 +35,10 @@ homebrew_cask_apps:
   - onyx
   - postman
   - raycast
-  - sip
   - slack
   - stats
   - the-unarchiver
   - unclack
-  - visual-studio-code-insiders
   - warp
 
 npm_packages:
@@ -70,17 +64,10 @@ dockitems_remove:
 dockitems_persist:
   - name: "Microsoft Outlook"
     path: "/Applications/Microsoft Outlook.app/"
-    pos: 2
   - name: "Microsoft Teams"
     path: "/Applications/Microsoft Teams.app/"
-    pos: 3
-  - name: "Google Chrome Canary"
-    path: "/Applications/Google Chrome Canary.app/"
-    pos: 4
   - name: "Warp"
     path: "/Applications/Warp.app/"
-  - name: "Visual Studio Code - Insiders"
-    path: "/Applications/Visual Studio Code - Insiders.app"
   - name: "GitKraken"
     path: "/Applications/GitKraken.app"
   - name: "Postman"
